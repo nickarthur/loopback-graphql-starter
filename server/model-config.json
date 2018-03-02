@@ -57,5 +57,13 @@
         }
       }
     }
+  },
+  "kitty": {
+    "dataSource": "db",
+    "public": true
+  },
+  "nick": {
+    "dataSource": "db",
+    "public": true
   }
 }

@@ -1,0 +1,24 @@
+{
+  "name": "kitty",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "nick": {
+      "type": "belongsTo",
+      "model": "nick",
+      "foreignKey": "nickId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
