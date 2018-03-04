@@ -6,7 +6,7 @@
   "mongoDS": {
     "host": "",
     "port": 0,
-    "url": "mongodb+srv://nickarthur:C@ll0way@cluster0-hd1qe.mongodb.net/test",
+    "url": "mongodb+srv://nickarthur:test123@cluster0-hd1qe.mongodb.net/test",
     "database": "",
     "password": "",
     "name": "",
