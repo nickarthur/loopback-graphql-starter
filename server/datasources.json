@@ -4,7 +4,7 @@
     "connector": "memory"
   },
   "mongoDS": {
-    "host": "cluster0-hd1qe.mongodb.net",
+    "host": "cluster0-shard-00-00-hd1qe.mongodb.net",
     "port": 27017,
     "url": "",
     "database": "kitty-db",
