@@ -4,9 +4,9 @@
     "connector": "memory"
   },
   "mongoDS": {
-    "host": "cluster0-shard-00-00-hd1qe.mongodb.net",
+    "host": "",
     "port": 27017,
-    "url": "",
+    "url": "mongodb://nickarthur:test123@cluster0-shard-00-00-hd1qe.mongodb.net:27017,cluster0-shard-00-01-hd1qe.mongodb.net:27017,cluster0-shard-00-02-hd1qe.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin",
     "database": "kitty-db",
     "password": "test123",
     "name": "mongoDS",
