@@ -11,6 +11,6 @@
     "password": "",
     "name": "",
     "user": "",
-    "connector": ""
+    "connector": "mongoDS"
   }
 }
