@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mongoDS": {
+    "host": "cluster0-hd1qe.mongodb.net",
+    "port": 27017,
+    "url": "mongodb+srv://nickarthur:C%40ll0way@cluster0-hd1qe.mongodb.net/test",
+    "database": "admin",
+    "password": "C%40ll0way",
+    "name": "mongoDS",
+    "user": "nickarthur",
+    "connector": "mongodb"
   }
 }
