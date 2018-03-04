@@ -1,13 +1,13 @@
 # Relay GraphQL Server for Loopback
 
-Combine the powers of GraphQL with the backend of Loopback to automatically generate GraphQL endpoints based on Loopback Schema. 
+Combine the powers of GraphQL with the backend of Loopback to automatically generate GraphQL endpoints based on Loopback Schema.
 
 ## Installation
 
 ```sh
 npm i loopback-graphql-server -S
 ```
-Add the loopback-graphql-server component to the `server/component-config.json`: 
+Add the loopback-graphql-server component to the `server/component-config.json`:
 
 ```
 "loopback-graphql-server": {
@@ -31,7 +31,7 @@ Graphiql is available on `graphiqlPath` path. (Default: `/graphiql`);
 GraphQL subscription Server can be customised by passing `subscriptionServer` configuration. More information can be found at (https://github.com/apollographql/subscriptions-transport-ws#subscriptionserver) or (https://facebook.github.io/relay/docs/subscriptions.html)
 
 ## ACL and role mapping
-- Auto on/off access control 
+- Auto on/off access control
 - Enable loopback based ACL configuration
 
 ### Access token
@@ -46,7 +46,7 @@ GraphQL subscription Server can be customised by passing `subscriptionServer` co
 - Data pagination support by using navtive loopback function (`limit`, `offset`)
 - Relay Pagination (`first`, `last`, `before`, `after`)
 - Remote methods integration
-- Display total count number 
+- Display total count number
 - Allow to select single level or nested schema
 
 ## Mutations
@@ -85,4 +85,4 @@ GraphQL subscription Server can be customised by passing `subscriptionServer` co
 - [ ] File uploads
 
 ## Inspiration
-This repository originally started as a fork of the [loopback-graphql](https://github.com/Tallyb/loopback-graphql) project by [Tallyb](https://github.com/Tallyb) and the [loopback-graphql-relay](https://github.com/BlueEastCode/loopback-graphql-relay) by [BlueEastCode](https://github.com/BlueEastCode). I have fixed many bugs and tested on enterprise environment. This version is ready for production use. 
+This repository originally started as a fork of the [loopback-graphql](https://github.com/Tallyb/loopback-graphql) project by [Tallyb](https://github.com/Tallyb) and the [loopback-graphql-relay](https://github.com/BlueEastCode/loopback-graphql-relay) by [BlueEastCode](https://github.com/BlueEastCode). I have fixed many bugs and tested on enterprise environment. This version is ready for production use.

@@ -6,7 +6,7 @@
   "mongoDS": {
     "host": "cluster0-hd1qe.mongodb.net",
     "port": 27017,
-    "url": "mongodb+srv://nickarthur:C%40ll0way@cluster0-hd1qe.mongodb.net/test",
+    "url": "mongodb://nickarthur:C%40ll0way@cluster0-shard-00-00-hd1qe.mongodb.net:27017,cluster0-shard-00-01-hd1qe.mongodb.net:27017,cluster0-shard-00-02-hd1qe.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin",
     "database": "admin",
     "password": "C%40ll0way",
     "name": "mongoDS",
