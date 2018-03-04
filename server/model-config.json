@@ -14,19 +14,19 @@
     ]
   },
   "product": {
-    "dataSource": "db",
+    "dataSource": "mongodDS",
     "public": true
   },
   "brand": {
-    "dataSource": "db",
+    "dataSource": "mongodDS",
     "public": true
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mongodDS",
     "public": false
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mongodDS",
     "public": false,
     "relations": {
       "user": {
@@ -37,15 +37,15 @@
     }
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mongodDS",
     "public": false
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mongodDS",
     "public": false
   },
   "user": {
-    "dataSource": "db",
+    "dataSource": "mongodDS",
     "public": true,
     "relations": {
       "accessTokens": {
@@ -59,11 +59,11 @@
     }
   },
   "kitty": {
-    "dataSource": "db",
+    "dataSource": "mongodDS",
     "public": true
   },
   "nick": {
-    "dataSource": "db",
+    "dataSource": "mongodDS",
     "public": true
   }
 }
